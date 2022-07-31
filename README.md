@@ -28,8 +28,7 @@ bash start_navigation.sh
 ### For define a move_base goal for navigation 
 1. Open Rviz windows, choose "2D Nav Goal" and click on the position that you want the robot to come. 
 
-2. Or run move_base client in task_manager package
-Change waypoint.json in src/task_manager/data folder, then
+2. Or run move_base client in task_manager package. Change waypoint.json in src/task_manager/data folder, then
 ```
 cd ros-navigation-example
 bash start_navigation.sh
